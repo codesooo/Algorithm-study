@@ -2,7 +2,7 @@ package greedy;
 
 import java.util.*;
 import java.io.*;
-public class greedy_문자열뒤집기 {
+public class greedy_곱하기혹은더하기 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
