@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class impl_문자열재정렬 {
+public class impl_문자열재정렬 { 
     private static String str;
     private static ArrayList<Character> result = new ArrayList<>();
     private static int value = 0;
