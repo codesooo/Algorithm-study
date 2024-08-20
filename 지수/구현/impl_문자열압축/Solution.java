@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
 
-    public int solution(String s) {
+    public int solution(String s) { 
         int answer = s.length();
         for (int step = 1; step < s.length() / 2 + 1; step++) {
             String comp = "";
