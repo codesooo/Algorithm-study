@@ -3,7 +3,7 @@ import java.util.*;
 
 public class dfsbfs_음료수얼려먹기 {
     private static int[] dx = {-1, 1, 0, 0};
-    private static int[] dy = {0, 0, -1, 1};
+    private static int[] dy = {0, 0, -1, 1}; 
     private static int N;
     private static int M;
     private static int[][] map;
