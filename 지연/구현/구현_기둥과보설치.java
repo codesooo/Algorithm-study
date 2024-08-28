@@ -1,4 +1,4 @@
-package 지연;
+package 지연.구현;
 
 import java.util.ArrayList;
 import java.util.Collections;
