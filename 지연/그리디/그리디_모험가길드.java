@@ -1,4 +1,4 @@
-package 지연;
+package 지연.그리디;
 
 
 import java.io.BufferedReader;

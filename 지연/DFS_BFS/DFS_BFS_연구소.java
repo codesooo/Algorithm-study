@@ -1,4 +1,4 @@
-package 지연;
+package 지연.DFS_BFS;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class DFS_BFS_연구소 {
             for (int j = 0; j < m; j++) {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
-        }
+          }
         dfs(0); // 울타리 설치
         System.out.println(result);
     }
