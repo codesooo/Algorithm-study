@@ -2,7 +2,7 @@ import java.util.*;
 
 class Node {
     private int pos1X;
-    private int pos1Y;
+    private int pos1Y; 
     private int pos2X; 
     private int pos2Y;
     private int distance;
