@@ -2,7 +2,7 @@ package 정렬;
 
 import java.util.*;
 
-public class 두배열의원소교체 {
+public class 정렬_두배열의원소교체 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
