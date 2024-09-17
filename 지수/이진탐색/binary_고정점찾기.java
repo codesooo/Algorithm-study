@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class binary_고정점 찾기 {
+public class binary_고정점찾기 {
 
     public static int binarySearch(int[] arr, int start, int end) {
         if (start > end) return -1;
