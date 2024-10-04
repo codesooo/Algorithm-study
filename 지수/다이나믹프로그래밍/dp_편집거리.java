@@ -8,7 +8,7 @@ public class dp_편집거리 {
     // 최소 편집 거리(Edit Distance) 계산을 위한 다이나믹 프로그래밍
     static int editDist(String str1, String str2) {
         int n = str1.length();
-        int m = str2.length();
+        int m = str2.length(); 
 
         // 다이나믹 프로그래밍을 위한 2차원 DP 테이블 초기화
         int[][] dp = new int[n + 1][m + 1];
