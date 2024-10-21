@@ -38,13 +38,13 @@ public class 그래프이론_어두운길 {
 
         Collections.sort(edges); // 간선을 비용순으로 정렬
         int total = 0; // 전체 가로등 비용
-        int result = 0;
+        int result = 0; // 최소 신장 트리 구성 비용
 
         // 간선 하니씩 확인
-        for (int i = 0; i < edges.size(); i++) {
-            int cost = edges.get(i).getDistance();
-            int a = edges.get(i).getNodeA();
-            int b = edges.get(i).getNodeB();
+        for (Edge edge : edges) {
+            int cost = edge.getDistance();
+            int a = edge.getNodeA();
+            int b = edge.getNodeB();
             total += cost;
 
             // 사이클이 발생하지 않는 경우에만 집합에 포함
